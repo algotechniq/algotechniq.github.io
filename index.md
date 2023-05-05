@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "Home"
+header1: ""
+header2: "Let’s innovate together"
 ---
 
 >Algotechniq is at the forefront of the technology, media, and telecom (TMT) sector in the vibrant city of Tokyo, Japan. 
