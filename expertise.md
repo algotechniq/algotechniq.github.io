@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Expertise"
 imgurl: "assets/img/expertise.png"
 imgalt: "expertise"
