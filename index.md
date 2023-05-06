@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Home"
 imgurl: "assets/img/front.png"
 imgalt: "front"
