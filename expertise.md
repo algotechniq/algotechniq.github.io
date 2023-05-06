@@ -1,5 +1,5 @@
 ---
-layout: expertise
+layout: default
 title: "Expertise"
 ---
 Algotechniq provides an extensive and fast-growing collection of algorithms, architectures, and frameworks tailored to our clients' needs. Our expertise stands on four pillars:
