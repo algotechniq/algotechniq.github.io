@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "Projects"
+imgurl: "assets/img/projects.png"
+imgalt: "projects"
 ---
 
 * AI compute cores based on RISC-V
