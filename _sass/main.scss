@@ -30,6 +30,10 @@ html[data-theme="dark"] body blockquote {
   border-left: 10px solid #888;
 }
 
+html[data-theme="dark"] .invert-on-dark {
+  filter: invert(1);
+}
+
 html[data-theme="dark"] body blockquote:before {
   color: #888;
 }
