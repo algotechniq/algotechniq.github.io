@@ -3,6 +3,7 @@ layout: home
 title: "Projects"
 imgurl: "assets/img/projects.png"
 imgalt: "projects"
+img-invert-on-dark: true
 ---
 
 * AI compute cores based on RISC-V
