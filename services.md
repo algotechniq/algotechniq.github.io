@@ -1,6 +1,8 @@
 ---
 layout: home
 title: "Services"
+imgurl: "assets/img/services.png"
+imgalt: "services"
 ---
 #### Algotechniq experts are committed to giving you a competitive edge.
 
