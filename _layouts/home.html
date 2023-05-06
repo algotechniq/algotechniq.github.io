@@ -8,7 +8,7 @@ layout: default
   </div>
   {% if page.imgurl %}
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/{{ page.imgurl }}" alt="{{ page.imgalt }}" width="90%">
+    <img src="{{ site.github.url }}/{{ page.imgurl }}" alt="{{ page.imgalt }}" width="90%" {% if page.invert-on-dark %}class="invert-on-dark"{% endif %}>
   </div>
   {% endif %}
 </div>
