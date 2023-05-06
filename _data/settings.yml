@@ -6,7 +6,7 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 people:
-- {name: 'Our founder', email: 'kambiz@algotechniq.com', image: 'assets/img/primary-investigator.jpg', url: 'our-founder'}
+- {name: 'Our founder', email: 'kambiz@algotechniq.com', image: 'assets/img/primary-investigator.jpg', url: 'our-founder', description: 'With over 30 years in the tech industry, Kambiz Homayounfar has thrived in technology-focused ventures, private equity, and M&A. His notable clients include major corporations like IBM, Microsoft, NTT Docomo, and Toyota, among others. Kambiz successfully founded and expanded companies such as Phybit, Genista Corporation, and Algorex, which were subsequently acquired. Throughout his career, he has occupied pivotal roles at Teknekron and Asahi Chemical. Kambiz obtained his degree in Computational Electronics from the University of Cardiff and pursued postgraduate studies in Electrical Engineering at Rensselaer Polytechnic Institute.'}
 # - {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
 # - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
