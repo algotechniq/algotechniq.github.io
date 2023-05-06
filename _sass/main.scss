@@ -16,21 +16,21 @@ body a {
   color: $linkColor
 }
 
-body.dark-mode {
+body.dark {
   background: $darkBackgroundColor;
   color: $darkBodyColor;
 }
 
-body.dark-mode a {
+body.dark a {
   color: $darkLinkColor;
 }
 
-body.dark-mode blockquote {
+body.dark blockquote {
   background: #5a5a5a;
   border-left: 10px solid #888;
 }
 
-body.dark-mode blockquote:before {
+body.dark blockquote:before {
   color: #888;
 }
 
