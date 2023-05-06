@@ -19,3 +19,4 @@ Let's embark on a journey of technological innovation together. Contact us today
 
 We have ongoing projects in AI processor design, chip economics, and total cost of ownership (TCO).
 {% endcapture %}
+
