@@ -1,6 +1,8 @@
 ---
-layout: home
+layout: default
 title: "Home"
+imgurl: "assets/img/front.jpg"
+imgalt: "front"
 ---
 ### an AI technology company
 
