@@ -1,18 +1,10 @@
 ---
 layout: page
-title: "Primary Investigator"
+title: "Our Founder"
 ---
 
-Researcher - Physics & Astronomy
-
-Some University - 1 Main Street, Canada
-
-Phone: (000) 000-0000
-
-Email: hello@university.edu
-
-Office: Science Building 505
+Email: kambiz@algotechniq.com
 
 ---
 
-Nullam lacinia eros eu lectus efficitur euismod. Phasellus ac urna ligula. Curabitur a massa volutpat, convallis velit ut, varius nunc. Ut venenatis pellentesque nulla, luctus accumsan eros suscipit vitae. Proin odio neque, hendrerit cursus mattis ut, aliquet ut nulla. Nulla facilisi. Donec tempus rutrum libero vel cursus.
+With over 30 years in the tech industry, Kambiz Homayounfar has thrived in technology-focused ventures, private equity, and M&A. His notable clients include major corporations like IBM, Microsoft, NTT Docomo, and Toyota, among others. Kambiz successfully founded and expanded companies such as Phybit, Genista Corporation, and Algorex, which were subsequently acquired. Throughout his career, he has occupied pivotal roles at Teknekron and Asahi Chemical. Kambiz obtained his degree in Computational Electronics from the University of Cardiff and pursued postgraduate studies in Electrical Engineering at Rensselaer Polytechnic Institute.
