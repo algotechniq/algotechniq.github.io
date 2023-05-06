@@ -27,19 +27,19 @@ people:
     He is a skilled leader who identifies opportunities and develops strategies that drive growth and profitability.
     Mos's dedication and work ethic make him a valuable asset to the company, ensuring that Algotechniq remains at the forefront of technological innovation.
 
-# ...
-# - {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
-
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
-
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/algotechniq'}
+- {icon: 'twitter', link: 'https://twitter.com/algotechniq'}
+- {icon: 'instagram', link: 'https://instagram.com/algotechniq'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/algotechniq'}
 
 contacts:
-- {name: 'ALGOTECHNIQ LLC', title: 'Address', department: 'Ebisu 2-28-10', institution: 'Shibuya-ku', institution_address: 'Tokyo 150-0013, Japan', office: 'Shu Building 2982', phone: '(070) 8902-8057', email: 'hello@algotechniq.com', image: 'assets/img/contact.jpg'}
+- name: 'ALGOTECHNIQ LLC'
+  title: 'Address'
+  department: 'Ebisu 2-28-10'
+  institution: 'Shibuya-ku'
+  institution_address: 'Tokyo 150-0013, Japan'
+  office: 'Shu Building 2982'
+  phone: '(070) 8902-8057'
+  email: 'hello@algotechniq.com'
+  image: 'assets/img/contact.jpg'
