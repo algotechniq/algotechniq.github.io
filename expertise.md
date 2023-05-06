@@ -1,6 +1,9 @@
 ---
 layout: default
 title: "Expertise"
+imgurl: "assets/img/expertise.png"
+imgalt: "expertise"
+
 ---
 Algotechniq provides an extensive and fast-growing collection of algorithms, architectures, and frameworks tailored to our clients' needs. Our expertise stands on four pillars:
 
