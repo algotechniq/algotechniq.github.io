@@ -3,6 +3,7 @@ layout: home
 title: "Home"
 imgurl: "assets/img/front.png"
 imgalt: "front"
+img-invert-on-dark: true
 ---
 ### an AI technology company
 
