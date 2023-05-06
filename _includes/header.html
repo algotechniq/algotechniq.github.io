@@ -8,11 +8,11 @@
     </a>
   </div>
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    <button id="theme-toggle" class="btn btn-sm btn-outline-secondary">
+      <i class="fas fa-moon"></i>
+    </button>
     {% for item in site.data.settings.menu %}
       <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
-  <div class="d-flex align-items-center">
-    <button id="theme-toggle" class="theme-toggle btn btn-sm btn-outline-secondary ms-3">Toggle Dark Mode</button>
-  </div>
 </header>
