@@ -1,8 +1,8 @@
 menu:
 - {name: 'people', url: '/people'}
 - {name: 'expertise', url: '/expertise'}
-- {name: 'process', url: '/courses'}
-- {name: 'solutions', url: '/cv'}
+- {name: 'services', url: '/services'}
+- {name: 'projects', url: '/projects'}
 - {name: 'contact', url: '/contact'}
 
 people:
