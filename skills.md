@@ -1,4 +1,0 @@
----
-layout: skills
-title: "Skills"
----
