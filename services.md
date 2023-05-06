@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Services"
 ---
 #### Algotechniq experts are committed to giving you a competitive edge.
