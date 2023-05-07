@@ -4,7 +4,7 @@ title: "Services"
 imgurl: "assets/img/services.png"
 imgalt: "services"
 ---
-#### Algotechniq is committed to giving you a competitive edge
+#### Committed to giving you a competitive edge
 
 - We take your specifications and transform them into a customized system.
 - The systems we deliver can be in the form of standalone software, distributed enterprise software, software on general-purpose hardware or software on custom-designed hardware.
