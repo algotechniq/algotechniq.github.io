@@ -3,4 +3,9 @@ layout: people
 title: "People"
 ---
 ### People: our greatest asset
-We are a collective of technology veterans with decades of industry experience. We have a history of providing solutions to multinational corporations, ensuring they benefit from exceptional service and the most efficient strategies.
+We are a team of technology veterans with decades of industry experience. We have a track record of providing solutions to multinational corporations, ensuring they benefit from the most effective strategies.
+
+We organize teams in clusters, each with a client-facing project manager backed by data AI engineers and system developers.
+
+We have long-standing connections to leading universities around the globe, including UC Berkeley, ETHZ, UTokyo, Keio, and NUS. 
+Through these relations, we tap into the expertise of borderless innovators to provide a fast and customized response to the needs of our clients.
