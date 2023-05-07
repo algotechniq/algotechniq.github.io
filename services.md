@@ -4,7 +4,7 @@ title: "Services"
 imgurl: "assets/img/services.png"
 imgalt: "services"
 ---
-#### Algotechniq experts are committed to giving you a competitive edge.
+#### Algotechniq is committed to giving you a competitive edge
 
 - We take your specifications and transform them into a customized system.
 - The systems we deliver can be in the form of standalone software, distributed enterprise software, software on general-purpose hardware or software on custom-designed hardware.
@@ -12,15 +12,10 @@ imgalt: "services"
 - We can carry out an entire project or a co-development assignment.
 
 
-#### Our services include:
+#### Engineering services
 
 + System feasibility study
 + Algorithm-architecture codesign
-+ Technology selection
-+ Full system development
-+ Block/IP level system development 
-+ IP integration
-+ System design simulation
-+ System design verification and debugging 
-+ System and product integration
-+ System support and field upgrades
++ System simulation, verification, and integration
++ System cost estimation
++ System deployment support
