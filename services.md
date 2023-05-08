@@ -19,3 +19,15 @@ imgalt: "services"
 + System simulation, verification, and integration
 + System cost estimation
 + System deployment support
+
+
+#### Venture development
+
+At Algotechniq, we know that starting a new business can be overwhelming, so we offer guidance every step of the way. In addition to extensive knowledge of the most recent technological trends, we offer years of expertise in the electronics sector. We provide the expertise essential to the development of sustainable paths toward entrepreneurial success.
+
+
+
+
+
+
+
