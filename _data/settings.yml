@@ -18,7 +18,6 @@ people:
     Kambiz obtained his degree in Computational Electronics from the University of Cardiff and pursued postgraduate studies in Electrical Engineering at Rensselaer Polytechnic Institute.
 - name: Mos Yari
   title: Business Developer
-  email: mos@algotechniq.com
   image: assets/img/mos.jpg
   url: mos-yari
   description: >
@@ -40,5 +39,5 @@ contacts:
   institution_address: 'Tokyo 150-0013, Japan'
   office: 'Shu Building 2982'
   phone: '(070) 8902-8057'
-  email: 'hello@algotechniq.com'
+  email: 'mos@algotechniq.com'
   image: 'assets/img/contact.jpg'
