@@ -17,8 +17,6 @@ Infrastructure Monitoring: Automating routine monitoring and maintenance of infr
 
 Non-Destructive Testing (NDT): Machine learning can bolster NDT, a method for assessing material properties without causing damage. For instance, it can decode complex data from ultrasonic testing to spot patterns or anomalies that may suggest a defect.
 
-Manufacturing: Machine learning and computer vision can scrutinize assembly line products for defects like misaligned parts, missing components, or color discrepancies, enhancing product quality and production efficiency.
-
 ### Financial AI
 
 In the current era of exploding digital data, we're witnessing a rising demand for know-how in utilizing AI and ML for crafting trading strategies. 
