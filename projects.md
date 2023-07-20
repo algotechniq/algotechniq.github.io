@@ -11,15 +11,15 @@ At Algotechniq, we combine AI and computer vision algorithms to reshape industri
 
 In the realm of quality control and defect detection, AI-powered computer vision is making significant strides. Critical applications of interest to Algotechniq include:
 
-#### Metal and Steel Production
+##### Metal and Steel Production
 
 Machine learning, specifically deep learning algorithms, paired with computer vision, enables real-time detection of defects such as cracks, corrosion, and deformities during manufacturing. This image-based analysis expedites defect identification and classification, reducing waste and enhancing product quality.
 
-#### Infrastructure Monitoring
+##### Infrastructure Monitoring
 
 Automating routine monitoring and maintenance of infrastructure such as roads, tunnels, and buildings is possible with machine learning and computer vision. These technologies can quickly pinpoint problems by recognizing typical image or video data defects.
 
-#### Non-Destructive Testing (NDT) 
+##### Non-Destructive Testing (NDT) 
 
 Machine learning can bolster NDT, a method for assessing material properties without causing damage. For instance, it can decode complex data from ultrasonic testing to spot patterns or anomalies that may suggest a defect.
 
