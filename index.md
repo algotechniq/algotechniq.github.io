@@ -4,7 +4,7 @@ title: "Home"
 imgurl: "assets/img/front.png"
 imgalt: "front"
 ---
-## Driving AI Innovation in Japan
+### Driving AI Innovation in Japan
 
 Algotechniq is a cutting-edge AI company based in Tokyo, Japan, leading the way in technological advancements. 
 
