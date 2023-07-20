@@ -5,7 +5,7 @@ imgurl: "assets/img/projects.png"
 imgalt: "projects"
 img-invert-on-dark: true
 ---
-Industrial AI
+# Industrial AI
 
 At Algotechniq, we combine AI and computer vision algorithms to reshape industrial inspection practices, leading to safer environments, superior products, and more efficient processes.
 
@@ -19,7 +19,7 @@ Non-Destructive Testing (NDT): Machine learning can bolster NDT, a method for as
 
 Manufacturing: Machine learning and computer vision can scrutinize assembly line products for defects like misaligned parts, missing components, or color discrepancies, enhancing product quality and production efficiency.
 
-Financial AI
+# Financial AI
 
 In the current era of exploding digital data, we're witnessing a rising demand for know-how in utilizing AI and ML for crafting trading strategies. 
 
