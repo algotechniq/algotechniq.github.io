@@ -7,23 +7,13 @@ img-invert-on-dark: true
 ---
 ### Industrial AI
 
-At Algotechniq, we combine AI and computer vision algorithms to reshape industrial inspection practices, leading to safer environments, superior products, and more efficient processes.
+At Algotechniq, we focus on the application of AI in various industrial sectors, including metal and steel production, infrastructure monitoring, and non-destructive testing (NDT). 
 
-In the realm of quality control and defect detection, AI-powered computer vision is making significant strides. 
+Combining deep learning algorithms with computer vision enables real-time identification and classification of defects such as cracks, corrosion, and deformities during manufacturing. This image-based analysis accelerates defect recognition, reduces waste, and enhances product quality.
 
-Applications of interest to Algotechniq include:
+Moreover, Algotechniq harnesses the potential of machine learning and computer vision to automate routine monitoring and maintenance tasks for infrastructure such as roads, tunnels, and buildings. Our AI inspection technologies swiftly identify issues by recognizing defects in an image or video data. This allows for quick problem pinpointing and efficient resolution.
 
-##### Metal and Steel Production
-
-Machine learning, specifically deep learning algorithms, paired with computer vision, enables real-time detection of defects such as cracks, corrosion, and deformities during manufacturing. This image-based analysis expedites defect identification and classification, reducing waste and enhancing product quality.
-
-##### Infrastructure Monitoring
-
-Automating routine monitoring and maintenance of infrastructure such as roads, tunnels, and buildings is possible with machine learning and computer vision. These technologies can quickly pinpoint problems by recognizing typical image or video data defects.
-
-##### Non-Destructive Testing (NDT) 
-
-Machine learning can bolster NDT, a method for assessing material properties without causing damage. For instance, it can decode complex data from ultrasonic testing to spot patterns or anomalies that may suggest a defect.
+Additionally, our machine learning capabilities enhance non-destructive testing methods by decoding intricate data acquired from techniques like ultrasonic testing. By discerning patterns or anomalies that may indicate the presence of defects, we further enhance the effectiveness and accuracy of the assessment process.
 
 ### Financial AI
 
