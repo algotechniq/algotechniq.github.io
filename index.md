@@ -12,7 +12,7 @@ Despite being newly established, our team of experienced experts has a proven tr
 
 > Expertise in AI Model Implementation
 
-With our primary focus on AI model implementation, Algotechniq specializes in developing and deploying AI models for real-world applications. From the initial concept to real-time implementation on advanced processors, we offer comprehensive solutions tailored to your unique AI requirements.
+With our primary focus on AI model implementation, Algotechniq specializes in developing and deploying AI models for real-world applications. From the initial concept to real-time implementation on advanced processors, we offer comprehensive solutions tailored to your unique requirements.
 
 > Let’s innovate together
 
