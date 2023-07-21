@@ -9,7 +9,9 @@ img-invert-on-dark: true
 
 At Algotechniq, we combine AI and computer vision algorithms to reshape industrial inspection practices, leading to safer environments, superior products, and more efficient processes.
 
-In the realm of quality control and defect detection, AI-powered computer vision is making significant strides. Critical applications of interest to Algotechniq include:
+In the realm of quality control and defect detection, AI-powered computer vision is making significant strides. 
+
+Applications of interest to Algotechniq include:
 
 ##### Metal and Steel Production
 
