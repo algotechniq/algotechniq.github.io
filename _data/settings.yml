@@ -27,9 +27,9 @@ people:
 
 social:
 - {icon: 'github', link: 'https://github.com/algotechniq'}
-- {icon: 'twitter', link: 'https://twitter.com/algotechniq'}
-- {icon: 'instagram', link: 'https://instagram.com/algotechniq'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/algotechniq'}
+# - {icon: 'twitter', link: 'https://twitter.com/algotechniq'}
+# - {icon: 'instagram', link: 'https://instagram.com/algotechniq'}
+- {icon: 'linkedin', link: 'https://jp.linkedin.com/in/kambiz-homayounfar-b379a01ba'}
 
 contacts:
 - name: 'Algotechniq LLC'
