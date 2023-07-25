@@ -3,7 +3,8 @@ layout: home
 title: "Home"
 imgurl: "assets/img/front.png"
 imgalt: "front"
-publications:
+coltitle: "Articles"
+colitems:
   - name: "Bounded Performance: The Roofline Model Uncovered"
     url: /assets/articles/roof.pdf
     date: 2023-07-01
