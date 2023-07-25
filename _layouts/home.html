@@ -11,7 +11,7 @@ layout: default
     <img src="{{ site.github.url }}/{{ page.imgurl }}" alt="{{ page.imgalt }}" width="90%" {% if page.img-invert-on-dark %}class="invert-on-dark"{% endif %}>
   {% endif %}
       {% if page.coltitle %}
-    <h3>page.coltitle</h3>
+    <h3>{{ page.coltitle }}</h3>
     <ul>    
       {% for pub in page.colitems %}
     
