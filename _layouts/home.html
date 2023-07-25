@@ -6,9 +6,10 @@ layout: default
   <div class="col-md-6">
     {{ content }}
   </div>
-  {% if page.imgurl %}
   <div class="col-md-6">
+  {% if page.imgurl %}
     <img src="{{ site.github.url }}/{{ page.imgurl }}" alt="{{ page.imgalt }}" width="90%" {% if page.img-invert-on-dark %}class="invert-on-dark"{% endif %}>
-  </div>
   {% endif %}
+  {% include publications.html %}
+  </div>
 </div>
