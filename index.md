@@ -4,12 +4,15 @@ title: "Home"
 imgurl: "assets/img/front.png"
 imgalt: "front"
 publications:
-  - name: Paper 1 
-    url: https://example.com/paper1
-  - name: Paper 2
-    url: https://example.com/paper2
-  - name: Paper 3
-    url: https://example.com/paper3
+  - name: Bounded Performance: The Roofline Model Uncovered
+    url: /assets/articles/roof.pdf
+    date: July 2023
+  - name: Balancing Act: Harnessing AI’s Potential Amid Rising Costs and Environmental Impact
+    url: /assets/articles/nncarbon.pdf
+    date: May 2023
+  - name: The Neural Network Zoo: The Magic of Learning
+    url: /assets/articles/nnzoo.pdf
+    date: April 2023
 ---
 ### Driving AI Innovation in Japan
 
