@@ -4,13 +4,13 @@ title: "Home"
 imgurl: "assets/img/front.png"
 imgalt: "front"
 publications:
-  - name: Bounded Performance: The Roofline Model Uncovered
+  - name: "Bounded Performance: The Roofline Model Uncovered"
     url: /assets/articles/roof.pdf
     date: 2023-07-01
-  - name: Balancing Act: Harnessing AI’s Potential Amid Rising Costs and Environmental Impact
+  - name: "Balancing Act: Harnessing AI’s Potential Amid Rising Costs and Environmental Impact"
     url: /assets/articles/nncarbon.pdf
     date: 2023-05-01
-  - name: The Neural Network Zoo: The Magic of Learning
+  - name: "The Neural Network Zoo: The Magic of Learning"
     url: /assets/articles/nnzoo.pdf
     date: 2023-04-01
 ---
