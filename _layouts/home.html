@@ -10,10 +10,10 @@ layout: default
   {% if page.imgurl %}
     <img src="{{ site.github.url }}/{{ page.imgurl }}" alt="{{ page.imgalt }}" width="90%" {% if page.img-invert-on-dark %}class="invert-on-dark"{% endif %}>
   {% endif %}
-    <h3>Articles</h3>
+      {% if page.coltitle %}
+    <h3>page.coltitle</h3>
     <ul>    
-
-      {% for pub in page.publications %}
+      {% for pub in page.colitems %}
     
       <li>
         <a href="{{ pub.url }}" style="text-decoration:none">{{ pub.name }}</a><br />
@@ -22,5 +22,6 @@ layout: default
     
       {% endfor %}
     </ul>
+    {% endif %}
   </div>
 </div>
