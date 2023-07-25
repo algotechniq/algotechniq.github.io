@@ -12,13 +12,15 @@ layout: default
   {% endif %}
     <h3>Articles</h3>
     <ul>    
-    {% for pub in page.publications %}
+
+      {% for pub in page.publications %}
     
-    <li>
-      <a href="{{ pub.url }}">{{ pub.name }}</a> - {{ pub.date | date: "%b %Y" }}  
-    </li>
+      <li>
+        <a href="{{ pub.url }}" style="text-decoration:none">{{ pub.name }}</a><br />
+        <i>{{ pub.date | date: "%b %Y" }}</i> 
+      </li>
     
-    {% endfor %}
+      {% endfor %}
     </ul>
   </div>
 </div>
