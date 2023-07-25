@@ -11,10 +11,8 @@ layout: default
     <img src="{{ site.github.url }}/{{ page.imgurl }}" alt="{{ page.imgalt }}" width="90%" {% if page.img-invert-on-dark %}class="invert-on-dark"{% endif %}>
   {% endif %}
     <h3>Articles</h3>
-    <ul>
-    {% assign sorted_pubs = page.publications | sort: 'date' | reverse %}
-    
-    {% for pub in sorted_pubs %}
+    <ul>    
+    {% for pub in page.publications %}
     
     <li>
       <a href="{{ pub.url }}">{{ pub.name }}</a> - {{ pub.date | date: "%b %Y" }}  
