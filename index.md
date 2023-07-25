@@ -3,6 +3,13 @@ layout: home
 title: "Home"
 imgurl: "assets/img/front.png"
 imgalt: "front"
+publications:
+  - name: Paper 1 
+    url: https://example.com/paper1
+  - name: Paper 2
+    url: https://example.com/paper2
+  - name: Paper 3
+    url: https://example.com/paper3
 ---
 ### Driving AI Innovation in Japan
 
