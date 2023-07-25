@@ -6,13 +6,13 @@ imgalt: "front"
 publications:
   - name: Bounded Performance: The Roofline Model Uncovered
     url: /assets/articles/roof.pdf
-    date: July 2023
+    date: 2023-07-01
   - name: Balancing Act: Harnessing AI’s Potential Amid Rising Costs and Environmental Impact
     url: /assets/articles/nncarbon.pdf
-    date: May 2023
+    date: 2023-05-01
   - name: The Neural Network Zoo: The Magic of Learning
     url: /assets/articles/nnzoo.pdf
-    date: April 2023
+    date: 2023-04-01
 ---
 ### Driving AI Innovation in Japan
 
