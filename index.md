@@ -5,9 +5,15 @@ imgurl: "assets/img/front.png"
 imgalt: "front"
 coltitle: "Articles"
 colitems:
+  - name: "Entrepreneurial Guidance: Nurturing Startups with Incremental Value Creation"
+    url: /assets/articles/vcguidance.pdf
+    date: 2023-07-01
   - name: "Bounded Performance: The Roofline Model Uncovered"
     url: /assets/articles/roof.pdf
     date: 2023-07-01
+  - name: "Takumi: Japan’s Key to Tech Entrepreneurship Success"
+    url: /assets/articles/takumi.pdf
+    date: 2023-06-01
   - name: "Balancing Act: Harnessing AI’s Potential Amid Rising Costs and Environmental Impact"
     url: /assets/articles/nncarbon.pdf
     date: 2023-05-01
