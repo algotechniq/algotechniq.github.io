@@ -16,7 +16,7 @@ layout: default
       {% for pub in page.colitems %}
     
       <li>
-        <a href="{{ pub.url }}" style="text-decoration:none">{{ pub.name }}</a><br />
+        <a href="{{ pub.url }}" style="text-decoration:none;" onmouseover="this.style.fontWeight='bold';" onmouseout="this.style.fontWeight='normal';">{{ pub.name }}</a><br />
         <i>{{ pub.date | date: "%b %Y" }}</i> 
       </li>
     
