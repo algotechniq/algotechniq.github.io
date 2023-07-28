@@ -6,11 +6,12 @@ imgalt: "services"
 ---
 #### Committed to your competitive edge
 
-- We take your specifications and transform them into a customized system.
-- The systems we deliver can be in the form of standalone software, distributed enterprise software, software on general-purpose hardware or software on custom-designed hardware.
-- Depending on the project scope, we offer pre-design, system implementation, and post-delivery specialized support. 
-- We can carry out an entire project or a co-development assignment.
+We're committed to enhancing your competitive edge by turning your specifications into customized systems. 
 
+Our versatile offerings range from standalone software to enterprise-wide systems tailored to diverse hardware environments. 
+We provide end-to-end services from pre-design to post-delivery support to acknowledge project scope variability. 
+
+Whether we spearhead a project or collaborate with your team, we aim to solidify your competitive advantage.
 
 #### Engineering services
 
