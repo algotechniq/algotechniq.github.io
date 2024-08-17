@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://www.algotechniq.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.algotechniq.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-08-18T08:19:08+09:00</updated><id>https://www.algotechniq.com/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">AI on Jetson</title><link href="https://www.algotechniq.com/blog/2024/ai-on-jetson/" rel="alternate" type="text/html" title="AI on Jetson" /><published>2024-08-13T00:00:00+09:00</published><updated>2024-08-13T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2024/ai-on-jetson</id><content type="html" xml:base="https://www.algotechniq.com/blog/2024/ai-on-jetson/"><![CDATA[<p>The Algotechniq methodology for AI software development on Nvidia Jetson single-board computers can be outlined in four key steps.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/aionjetson.webp" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Four steps to AI on Jetson, each on two legs.
+</div>
+
+<p>First, <strong>Define and Select</strong> the AI task by identifying the specific application you intend to develop, such as object detection or natural language processing. Based on the requirements, select the appropriate Jetson model, like the Jetson Nano or Xavier, and choose the relevant AI frameworks that will best suit the project.</p>
+
+<p>Next, <strong>Develop and Validate</strong> the application by implementing the AI solution using the chosen frameworks. During this phase, integrate AI models into your application while leveraging the GPU acceleration capabilities of the Jetson platform. Validate the model to ensure it functions correctly, making necessary adjustments before moving forward.</p>
+
+<p>Following this, <strong>Test and Optimize</strong> the application by conducting thorough testing, including unit tests, performance profiling, and debugging. During this step, it’s crucial to optimize the model for speed and efficiency using tools such as TensorRT, ensuring that it performs well on the Jetson hardware.</p>
+
+<p>Finally, <strong>Deploy and Monitor</strong> the optimized application by integrating it into the final product and deploying it on the Jetson device. After deployment, continuous monitoring is essential to ensure the application meets performance expectations in real-world conditions. Regular updates and optimizations may be required to maintain and improve the application’s performance over time.</p>
+
+<p>This streamlined approach facilitates the efficient development and deployment of AI tasks on Nvidia Jetson platforms, ensuring optimal performance and reliability.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><summary type="html"><![CDATA[In four bipedal steps]]></summary></entry><entry><title type="html">YOLO</title><link href="https://www.algotechniq.com/blog/2024/yolov8/" rel="alternate" type="text/html" title="YOLO" /><published>2024-08-12T00:00:00+09:00</published><updated>2024-08-12T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2024/yolov8</id><content type="html" xml:base="https://www.algotechniq.com/blog/2024/yolov8/"><![CDATA[<p>The “You Only Look Once” (YOLO) series of object detection models has been instrumental in advancing the field of computer vision, particularly in real-time object detection. The timeline of YOLO’s development highlights its evolution from a fast yet less precise model into a series of highly efficient and accurate tools.</p>
+
+<h3 id="introduction-of-yolo-2016">Introduction of YOLO (2016)</h3>
+
+<p>The original YOLO model, introduced in 2016 by Joseph Redmon and collaborators, shook up the machine learning field by treating object detection as a single regression problem <a class="citation" href="#Redmon2016CVPR">(Redmon et al., 2016)</a>. This innovative approach allowed YOLO to process images in one pass, resulting in excellent detection speeds. However, the initial model had limitations in accuracy, particularly with small or densely packed objects.</p>
+
+<h3 id="interim-evolutions-2017-to-2020">Interim Evolutions: 2017 to 2020</h3>
+
+<p>YOLOv2, released in 2017, improved on the original by adding anchor boxes, batch normalization, and a refined loss function. These changes boosted accuracy while keeping the model fast. YOLO9000, an extension of YOLOv2, could detect over 9,000 object categories, showing YOLO’s ability to handle large datasets.</p>
+
+<p>YOLOv3 enhanced the model further with multi-scale detection, better handling objects of different sizes. The new Darknet-53 architecture improved feature extraction, and logistic regression enhanced accuracy, particularly for small and overlapping objects. YOLOv3 maintained a good balance between speed and accuracy, making it widely used.</p>
+
+<p>YOLOv4, developed by Alexey Bochkovskiy <a class="citation" href="#bochkovskiy2020yolov4">(Bochkovskiy et al., 2020)</a>, introduced techniques like Cross Stage Partial (CSP) connections and self-adversarial training (SAT). These advancements increased both accuracy and robustness, while still prioritizing speed, reinforcing YOLO’s strong reputation.</p>
+
+<h3 id="the-newest-models-v5-and-v8">The Newest Models: V5 and V8</h3>
+
+<p>YOLOv5, released in 2020 by the <a href="https://github.com/ultralytics/ultralytics">Ultralytics</a> team, marked a significant shift in the YOLO series. Although not developed by the original authors, YOLOv5 quickly gained widespread adoption due to its ease of use, integration with PyTorch, and extensive documentation. It emphasized a more practical approach, optimizing the model for deployment in various real-world scenarios. YOLOv5 became a favorite among developers for its balance of simplicity, performance, and versatility, making it a go-to choice for many object detection tasks.</p>
+
+<p>YOLOv8, released in 2023, represents the latest advancement in the YOLO series. It introduces cutting-edge features and enhancements in network architecture, further refining the model’s speed and accuracy. YOLOv8 is designed for seamless integration with modern hardware and software environments, making it highly adaptable and easy to deploy across a wide range of applications. This version solidifies YOLO’s position at the forefront of object detection technology, continuing the series’ tradition of innovation and excellence.</p>
+
+<blockquote>
+  <p>YOLO Series: Improving Speed and Precision</p>
+</blockquote>
+
+<p>The YOLO series has consistently pushed the boundaries of object detection, evolving from an efficient but limited model into a series of highly sophisticated tools. YOLOv5 and YOLOv8, in particular, have become essential in real-world applications, offering unparalleled performance and ease of use. As the series continues to develop, YOLO remains a leading choice for both researchers and practitioners in the field of computer vision.</p>
+
+<h3 id="yolov8-in-depth">YOLOv8 In-Depth</h3>
+
+<p>To get insight into the function of YOLOv8, let’s look at these two picture:</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/puppies0.jpeg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/puppies1.jpeg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+The input (left) and the output of an example to illustrate the function of YOLOv8. 
+</div>
+
+<p>The one on the left would be the input to YOLOv8 and the right with the highlighted bounding boxes would be the output.</p>
+
+<blockquote>
+  <p>The function of YOLOv8 for object detection is to determine the bounding boxes for different objects in an image.</p>
+</blockquote>
+
+<p>Let’s describe the three principal components of the YOLOv8 architecture using some algebra. There are the Backbone, the Neck, and Head.</p>
+
+<h4 id="backbone">Backbone</h4>
+
+<p>The backbone is a convolutional neural network that extracts feature maps from the input image. Let’s denote the input image as \( X \) with dimensions \( H \times W \times C \) (height \( H \), width \( W \), and \( C \) channels).</p>
+
+<p>The backbone can be represented as a series of convolutional operations followed by non-linear activation functions and possibly downsampling operations (e.g., pooling or strided convolutions). Mathematically, if the backbone consists of \( L \) layers, it can be represented as:</p>
+
+\[F_l = \sigma(W_l \ast F_{l-1} + b_l), \quad l = 1, 2, \dots, L\]
+
+<p>Where:</p>
+<ul>
+  <li>\( F_0 = X \) is the input image.</li>
+  <li>\( W_l \) and \( b_l \) are the weights and biases of the \( l \)-th layer.</li>
+  <li>\( \ast \) denotes the convolution operation.</li>
+  <li>\( \sigma(\cdot) \) is a non-linear activation function (e.g., ReLU).</li>
+  <li>\( F_l \) is the feature map output by the \( l \)-th layer.</li>
+</ul>
+
+<p>The final output of the backbone, \( F_L \), is a set of feature maps \( {F_L^1, F_L^2, \dots, F_L^n} \) where each \( F_L^i \) corresponds to a feature map at different scales (e.g., multi-resolution feature maps for small, medium, and large objects).</p>
+
+<h4 id="neck">Neck</h4>
+
+<p>The neck is responsible for aggregating features at different scales. This can be represented using a Feature Pyramid Network (FPN) or a Path Aggregation Network (PANet), which combine feature maps from different layers to produce refined feature maps.</p>
+
+<p>For simplicity, let’s assume the neck consists of two operations: upsampling and lateral connections from the backbone. The neck can be represented as:</p>
+
+\[P_k = \text{Upsample}(F_{L}^k) + \text{Conv}(F_{L-1}^k), \quad k = 1, 2, \dots, n\]
+
+<p>Where:</p>
+<ul>
+  <li>\( \text{Upsample}(\cdot) \) is an upsampling operation to match the resolution of the lower-level features.</li>
+  <li>\( \text{Conv}(\cdot) \) represents a convolutional operation that adjusts the number of channels or refines features.</li>
+  <li>\( P_k \) is the feature map after aggregation at scale \( k \).</li>
+</ul>
+
+<p>The final output of the neck is a set of refined feature maps \( {P_1, P_2, \dots, P_n} \), which combine information across multiple scales.</p>
+
+<h4 id="head">Head</h4>
+
+<p>The head is responsible for generating the final predictions, including bounding boxes, objectness scores, and class probabilities. The head operates on the feature maps output by the neck.</p>
+
+<p>For each scale \( k \), the head can be represented as:</p>
+
+\[B_k = \text{Conv}_\text{bbox}(P_k), \quad C_k = \text{Conv}_\text{class}(P_k)\]
+
+<p>Where:</p>
+<ul>
+  <li>
+    <p>\( B_k \) represents the bounding box predictions for scale \( k \), including coordinates \( (x, y, w, h) \).</p>
+  </li>
+  <li>
+    <p>\( C_k \) represents the class probabilities and objectness score predictions for scale \( k \).</p>
+  </li>
+  <li>
+    <p>\(\text{Conv}_\text{bbox}(\cdot) \\) and \\( \text{Conv}_\text{class}(\cdot)\) are convolutional layers specific to bounding box and class prediction tasks, respectively.</p>
+  </li>
+</ul>
+
+<p>The output of the head is a set of bounding boxes and associated class probabilities:</p>
+
+\[\text{Output} = \{(B_1, C_1), (B_2, C_2), \dots, (B_n, C_n)\}\]
+
+<p>Where each pair \( (B_k, C_k) \) contains the bounding boxes and class probabilities for scale \( k \).</p>
+
+<p>In YOLOv8, term “scale” refers to the different levels of detail the model examines to detect both small and large objects. For example, a feature map with a resolution of \(128 \times 128\) pixels is at a different scale compared to one with \(32 \times 32\) pixels. By combining these details, it can accurately find and identify objects of various sizes in an image.</p>
+
+<p>To summarize:</p>
+
+<ul>
+  <li>
+    <p>Backbone: \( F_l = \sigma(W_l \ast F_{l-1} + b_l), \quad l = 1, 2, \dots, L \)</p>
+  </li>
+  <li>
+    <p>Neck: \( P_k = \text{Upsample}(F_{L}^k) + \text{Conv}(F_{L-1}^k), \quad k = 1, 2, \dots, n \)</p>
+  </li>
+  <li>
+    <p>Head: \(B_k = \text{Conv}_\text{bbox}(P_k), \quad C_k = \text{Conv}_\text{class}(P_k)\)</p>
+  </li>
+</ul>
+
+<p>These algebraic representations provide a formal view of the operations involved in the YOLOv8 architecture, capturing the transformation of the input image through feature extraction, aggregation, and finally, object detection.</p>
+
+<blockquote>
+  <p>YOLOv8: Fast and Versatile</p>
+</blockquote>
+
+<p>YOLOv8 is compatible with popular deep learning frameworks like PyTorch and TensorFlow. It also supports  deployment on edge devices, such as Nvidia Jetson, making it versatile for various use cases:</p>
+
+<ul>
+  <li>Surveillance systems for real-time monitoring and threat detection.</li>
+  <li>Industrial inspection for identifying defects on assembly lines.</li>
+  <li>Autonomous vehicles for detecting pedestrians, vehicles, and road signs.</li>
+</ul>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><summary type="html"><![CDATA[Illustrating a fast and accurate object detection algorithm]]></summary></entry><entry><title type="html">Deeply Learning Physics</title><link href="https://www.algotechniq.com/blog/2024/pbdl-jupyter/" rel="alternate" type="text/html" title="Deeply Learning Physics" /><published>2024-08-04T00:00:00+09:00</published><updated>2024-08-04T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2024/pbdl-jupyter</id><content type="html" xml:base="https://www.algotechniq.com/blog/2024/pbdl-jupyter/"><![CDATA[<h3 id="why-mix-physics-with-deep-learning">Why Mix Physics with Deep Learning?</h3>
+
+<p>Physics-Based Deep Learning (PBDL) represents a interdisciplinary approach that combines the rigor of physics with the flexibility of deep learning <a class="citation" href="#thuerey:hal-04083995">(Thuerey et al., 2021)</a>. Originally proposed by researchers at Brown and Penn <a class="citation" href="#RAISSI2019686">(Raissi et al., 2019)</a>, this emerging field leverages the strengths of both domains to address complex scientific problems that traditional methods strive to solve.</p>
+
+<blockquote>
+  <p>PBDL = DL + Physics-Based Loss Functions</p>
+</blockquote>
+
+<p>At its core, PBDL integrates physical laws and principles directly into the architecture of deep learning models. By embedding these fundamental rules, PBDL ensures that the models not only learn from data but also adhere to the underlying physical realities of the problem. This approach contrasts with purely data-driven models, which may lack interpretability and generalizability, especially in scenarios where data is sparse or noisy.</p>
+
+<h4 id="industrial-applications">Industrial Applications</h4>
+<p>In computer vision, PBDL enhances the accuracy and reliability of image recognition and analysis by incorporating physical principles into the model. For instance, in construction, PBDL can be used to analyze images of buildings and infrastructure to detect structural anomalies, such as cracks or deformations. By integrating physics-based models, the system can better understand how these structures should behave under normal conditions, improving its ability to identify potential issues. This approach reduces false positives and negatives in defect detection, leading to more precise assessments and maintenance recommendations.</p>
+
+<p>In preventive maintenance, PBDL plays a critical role by predicting equipment failures before they occur. By integrating the physics of machinery, such as the wear and tear dynamics, with deep learning algorithms, PBDL can predict when a machine is likely to fail or require maintenance. This is particularly valuable in industries like transportation, where equipment reliability is crucial. For example, in aviation, PBDL can analyze sensor data from aircraft engines to predict potential failures, allowing for timely maintenance that prevents costly and dangerous breakdowns.</p>
+
+<p>Overall, PBDL is a promising avenue that enhances the predictive power and reliability of machine learning models, enabling breakthroughs in various scientific and engineering disciplines by grounding data-driven methods in the solid foundation of physical laws.</p>
+
+<h3 id="the-math-of-pbdl">The Math of PBDL</h3>
+<p>It’s best to delve deeper into the formulation of a deep learning network using the Universal Approximation Theorem (UAT) and then incorporate physical laws into it. UAT states that a feedforward neural network with a single hidden layer containing a finite number of neurons can approximate any continuous function, provided it uses a non-linear activation function.</p>
+
+<p>To illustrate, let’s follow three steps:</p>
+
+<ol>
+  <li>Formulate a Deep Learning Network using UAT.</li>
+  <li>Insert Physical Laws into the Network.</li>
+  <li>Give a Simple Example.</li>
+</ol>
+
+<p>Consider a neural network with an input vector \( \mathbf{x} \in \mathbb{R}^n \), a hidden layer with \( m \) neurons, and an output \( y \in \mathbb{R} \). The network can be described as follows:</p>
+
+<p>\[ \mathbf{h} = \sigma(\mathbf{W}_1 \mathbf{x} + \mathbf{b}_1) \]
+\[ y = \mathbf{W}_2 \mathbf{h} + b_2 \]</p>
+
+<p>Where:</p>
+<ul>
+  <li>\( \mathbf{W}_1 \in \mathbb{R}^{m \times n} \) is the weight matrix for the input layer.</li>
+  <li>\( \mathbf{b}_1 \in \mathbb{R}^m \) is the bias vector for the hidden layer.</li>
+  <li>\( \sigma \) is a non-linear activation function (e.g., ReLU, sigmoid).</li>
+  <li>\( \mathbf{W}_2 \in \mathbb{R}^m \) is the weight vector for the output layer.</li>
+  <li>\( b_2 \in \mathbb{R} \) is the bias term for the output layer.</li>
+</ul>
+
+<p>To insert physical laws into the network, we incorporate known physical relationships directly into the learning process. This can be done by modifying the loss function to penalize violations of physical laws.</p>
+
+<p>Take, for example, a simple physical law, such as Newton’s second law of motion:</p>
+
+<p>\[ F = ma \]</p>
+
+<p>Where \( F \) is the force, \( m \) is the mass, and \( a \) is the acceleration. Suppose we want our neural network to predict the acceleration \( a \) given the force \( F \) and mass \( m \).</p>
+
+<p>We can modify the loss function to include a term that penalizes deviations from this physical law. Let \( \hat{a} \) be the predicted acceleration from the neural network. The loss function \( \mathcal{L} \) can be defined as:</p>
+
+\[\mathcal{L} = \mathcal{L}_{\text{data}} + \lambda \mathcal{L}_{\text{physics}}\]
+
+<p>Where:</p>
+<ul>
+  <li>\( \mathcal{L}_{\text{data}} \) is the data-driven loss (e.g., mean squared error between predicted and true acceleration).</li>
+  <li>\( \mathcal{L}_{\text{physics}} = | F - m \hat{a} |^2 \) penalizes deviations from Newton’s second law.</li>
+  <li>\( \lambda \) is a regularization parameter that controls the importance of the physical constraint.</li>
+</ul>
+
+<h4 id="example-predicting-the-motion-of-a-particle">Example: Predicting the Motion of a Particle</h4>
+
+<p>Consider a particle of mass \( m = 2 \) kg subject to a force \( F(t) \) over time \( t \). We want to predict the acceleration \( a(t) \) using a neural network.</p>
+
+<ol>
+  <li>
+    <p>Neural Network Model: Input: Force \( F(t) \), Output: Predicted acceleration \( \hat{a}(t) \).</p>
+  </li>
+  <li>
+    <p>Training Data: Simulated data for \( F(t) \) and true acceleration \( a(t) \).</p>
+  </li>
+  <li>
+    <p>Physics-Informed Loss Function:</p>
+  </li>
+</ol>
+
+\[\mathcal{L} = \frac{1}{N} \sum_{i=1}^N \left( a_i - \hat{a}_i \right)^2 + \lambda \sum_{i=1}^N \left( F_i - 2 \hat{a}_i \right)^2\]
+
+<p>Where \( N \) is the number of data points.</p>
+
+<p>In this example, the neural network is trained to predict the acceleration while adhering to Newton’s second law of motion. The regularization parameter \( \lambda \) ensures that the physical law is respected during the learning process.</p>
+
+<p>Let’s see the example in action with Jupyter:</p>
+
+
+
+
+<div
+  class="jupyter-notebook"
+  style="position: relative; width: 100%; margin: 0 auto;">
+  <div class="jupyter-notebook-iframe-container">
+    <iframe
+      src="/assets/jupyter/pbdlexample.ipynb.html"
+      style="position: absolute; top: 0; left: 0; border-style: none;"
+      width="100%"
+      height="100%"
+      onload="this.parentElement.style.paddingBottom = (this.contentWindow.document.documentElement.scrollHeight + 10) + 'px'"></iframe>
+  </div>
+</div>
+
+
+
+<p>Note that how the code computes the highly accurate estimate of acceleration to be 2.500002861022949 \(\textrm{ms}^{-2}\) .</p>
+
+<h3 id="takeaways">Takeaways</h3>
+
+<p>PBDL enhances the accuracy and reliability of predictions by embedding physical laws into the learning process. This approach is particularly useful for systems where physical principles are well understood and can provide additional guidance to the model.</p>
+
+<h3 id="to-dig-deeper">To Dig Deeper</h3>
+
+<p>What better way than to listen to the experts on YouTube?</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/SU-OILSmR1M?si=HbFOpQ4xUvZebZx4" class="rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="400" height="225" />
+  
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/-zrY7P2dVC4?si=6OBMW-y2u53CcqLR" class="rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="400" height="225" />
+  
+  
+</figure>
+
+    </div>
+</div>]]></content><author><name></name></author><category term="Algoblog" /><category term="math" /><category term="code" /><summary type="html"><![CDATA[A few notes in a Jupyter notebook]]></summary></entry><entry><title type="html">The Jetson Evolution</title><link href="https://www.algotechniq.com/blog/2024/jetson-evolution/" rel="alternate" type="text/html" title="The Jetson Evolution" /><published>2024-07-26T00:00:00+09:00</published><updated>2024-07-26T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2024/jetson-evolution</id><content type="html" xml:base="https://www.algotechniq.com/blog/2024/jetson-evolution/"><![CDATA[<p>Nvidia Jetson single-board computers (SBCs) provide versatile platforms for developers to implement AI and machine learning applications. Over the years, Nvidia has introduced several key products in the Jetson lineup, each advancing the capabilities and performance of embedded systems.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/jetsonevolution.webp" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="example image" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Four steps to AI on Jetson, each on two legs.
+</div>
+
+<h4 id="jetson-tx2-2017-embedded-ai">Jetson TX2 (2017): Embedded AI</h4>
+
+<p>The release of the Jetson TX2 in 2017 marked a milestone in the development of embedded AI systems. Building on the success of its predecessors (TK1 and TX1), the TX2 introduced a more powerful and energy-efficient platform, making it suitable for real-time computer vision applications in edge devices.</p>
+
+<p>The Jetson TX2 featured a Pascal GPU with 256 CUDA cores and a dual-core Denver 2 ARM CPU coupled with a quad-core ARM Cortex-A57. This architecture provided twice the performance of the TX1 while maintaining a similar power envelope. The TX2 found use cases in autonomous drones, robotics, and industrial automation, where real-time image processing and AI inference were essential. Its support for deep learning frameworks allowed developers to deploy AI models directly on the edge, reducing latency and improving time-sensitive performance.</p>
+
+<h4 id="jetson-nano-2019-ai-at-the-edge">Jetson Nano (2019): AI at the Edge</h4>
+
+<p>The Jetson Nano, introduced in 2019, offered a low-cost platform for embedded computer vision. Designed for hobbyists, researchers, and developers working on budget-constrained projects, the Jetson Nano provided easy access to AI and machine learning tools.</p>
+
+<p>Despite its affordable price, the Jetson Nano featured a 128-core Maxwell GPU and a quad-core ARM Cortex-A57 CPU, making it powerful enough to handle real-time image classification, object detection, and segmentation tasks. It supported popular AI frameworks such as TensorFlow and PyTorch, enabling the deployment of deep learning models in various applications. The Jetson Nano became popular in robotics, smart cameras, and educational projects. Its affordability and ease of use made it a platform of choice for developers looking to experiment with AI and computer vision on a smaller scale, without sacrificing performance.</p>
+
+<h4 id="jetson-xavier-nx-2020-high-performance-ai-in-a-compact-form">Jetson Xavier NX (2020): High-Performance AI in a Compact Form</h4>
+
+<p>In 2020, Nvidia introduced the Jetson Xavier NX, a compact yet powerful SBC designed to bridge the gap between the affordable Jetson Nano and the more robust Jetson AGX Xavier. The Xavier NX brought AI capabilities to edge devices that required a small footprint and low power consumption.</p>
+
+<p>The Jetson Xavier NX featured a Volta GPU with 384 CUDA cores and 48 Tensor Cores, providing up to 21 TOPS (trillions of operations per second) of AI performance. This made it suitable for demanding computer vision tasks, such as multi-camera processing, video analytics, and autonomous robotics.</p>
+
+<p>The Xavier NX offered a scalable solution for developers, allowing them to build AI-powered devices that could handle complex tasks in real-time. Its ability to process multiple high-resolution video streams simultaneously made it a good choice for applications like smart surveillance and advanced robotics.</p>
+
+<h4 id="jetson-orin-nano-2023-supercharged-entry-level-applications">Jetson Orin Nano (2023): Supercharged Entry-Level Applications</h4>
+
+<p>The Jetson Orin Nano, launched in 2023, represents the next generation of AI computing for entry-level embedded applications. Building on the success of the original Nano, the Orin Nano offers significantly enhanced performance and AI capabilities while maintaining an accessible price point.</p>
+
+<p>The Jetson Orin Nano features the Ampere GPU architecture with up to 1024 CUDA cores, delivering up to 40 TOPS of AI performance. This is a substantial upgrade from the original Nano, enabling more complex AI models and real-time computer vision tasks to be executed on edge devices.</p>
+
+<p>The Orin Nano is designed for applications where both cost and performance are necessary. It is well-suited for video analytics, and entry-level autonomous systems, helping developers to implement AI tasks without the need for higher-end hardware.</p>
+
+<h4 id="jetson-agx-orin-2023-ai-supercomputing-at-the-edge">Jetson AGX Orin (2023): AI Supercomputing at the Edge</h4>
+
+<p>The Jetson AGX Orin, also released in 2023, stands at the top of Nvidia’s Jetson lineup, offering high performance for the demanding real-time embedded applications. Featuring the Ampere GPU architecture with up to 2048 CUDA cores and 64 Tensor Cores, the Jetson AGX Orin delivers up to 275 TOPS of AI performance. This processing capability enables the execution of the many complex AI models, including those used in autonomous vehicles, robotics, and industrial automation. Support for advanced AI frameworks and libraries makes Jetson AGX Orin an attractive platform for next-generation AI systems.</p>
+
+<blockquote>
+  <p>Nvidia Jetson platforms have enabled a wide range of applications, from hobbyist projects to industrial automation and autonomous systems.</p>
+</blockquote>
+
+<p>Nvidia Jetson single-board computers have shown how quickly real-time embedded computer vision and AI have advanced. Starting with the Jetson TX2, which offered a big jump in performance and efficiency, Nvidia made AI more accessible with the Jetson Nano. Now, with the powerful Jetson AGX Orin, they have brought supercomputing power to edge AI and embedded vision systems, constantly pushing the limits of what’s possible.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><summary type="html"><![CDATA[As Nvidia evolves Jetson, embedded systems thrive]]></summary></entry><entry><title type="html">Bounded Performance: Uncovering the Roofline Model</title><link href="https://www.algotechniq.com/blog/2023/rooflinemodel/" rel="alternate" type="text/html" title="Bounded Performance: Uncovering the Roofline Model" /><published>2023-08-18T00:00:00+09:00</published><updated>2023-08-18T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2023/rooflinemodel</id><content type="html" xml:base="https://www.algotechniq.com/blog/2023/rooflinemodel/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><category term="math" /><summary type="html"><![CDATA[Is your AI algorithm computation-bound or memory-bound?]]></summary></entry><entry><title type="html">Neural Nonlinearities</title><link href="https://www.algotechniq.com/blog/2023/nonlinear/" rel="alternate" type="text/html" title="Neural Nonlinearities" /><published>2023-07-23T00:00:00+09:00</published><updated>2023-07-23T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2023/nonlinear</id><content type="html" xml:base="https://www.algotechniq.com/blog/2023/nonlinear/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><category term="math" /><summary type="html"><![CDATA[What makes neural nets so powerful?]]></summary></entry><entry><title type="html">AI’s Carbon Footprint</title><link href="https://www.algotechniq.com/blog/2023/ai-carbon-footprint/" rel="alternate" type="text/html" title="AI’s Carbon Footprint" /><published>2023-06-18T00:00:00+09:00</published><updated>2023-06-18T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2023/ai-carbon-footprint</id><content type="html" xml:base="https://www.algotechniq.com/blog/2023/ai-carbon-footprint/"><![CDATA[<p>Artificial intelligence (AI), especially deep learning, is making a big impact globally, leading to major advances in technology. Deep neural networks have revolutionized fields like computer vision and computational photography, enabling applications like visual object detection, human behavior detection, and visual search. These innovations are transforming industries from healthcare to transportation, demonstrating their significant impact on our daily lives.</p>
+
+<p>In academic circles, the success of these technologies is evident in their performance. For example, on the ImageNet dataset, the error rate in image recognition is about 11.5%, showcasing the strength of these algorithms. Beyond their technical achievements, AI technologies are also driving economic growth by creating new industries and job opportunities.</p>
+
+<p>However, the rapid advancement of AI comes with challenges. The high cost of training complex AI models could limit access to this technology, favoring large corporations and leaving smaller players, like startups and academic researchers, behind.</p>
+
+<p>And then, there’s the environmental cost <a class="citation" href="#Hao2019">(Hao, 2019)</a>.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/carbonfootprint.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="carbon footprint" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+Carbon footprint assessment of AI training at UMass Amherst.
+</div>
+
+<p>Researchers at UMass Amherst <a class="citation" href="#Strubell_Ganesh_McCallum_2020">(Strubell et al., 2020)</a> assessed the life cycle of training large AI models, finding that it can emit over 626,000 pounds of CO2 equivalent—nearly five times the lifetime emissions of an average American car.</p>
+
+<p>Neil Thompson from MIT CSAIL warns that the environmental impact of AI is another growing concern <a class="citation" href="#Thompson9563954">(Thompson et al., 2021)</a>. The huge computational power needed for training AI models leads to high energy use and increased carbon emissions, contributing to global warming.</p>
+
+<p>To quantify this alarming picture, MIT researchers found that training to achieve a 1% error rate would potentially cost more than US$100 quintillion (that’s not a typo, it’s \(100 \times 10^{18}\) US dollars) and result in 100 quintillion pounds (\(45 × 10^{18}\) metric tonnes) of carbon emissions. Thompson argues that when expenses continue to spiral out of control, researchers will have little choice to shift their focus to more efficient algorithms.</p>
+
+<p>If AI continues to grow in complexity and resource demands, it could become an economic and environmental threat. Thompson’s research suggests that we might face extreme costs and significant carbon emissions for only slight improvements in AI performance.</p>
+
+<p>Moreover, AI systems, despite their progress, struggle with more complex tasks. As these systems become more complicated, they are harder to understand and control, raising ethical concerns.</p>
+
+<p>The future of AI will likely depend on developing more efficient and environmentally friendly algorithms. While there are challenges ahead, let’s hope that the potential benefits make it worth pursuing.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><summary type="html"><![CDATA[The quintillions are alarming]]></summary></entry><entry><title type="html">The Bottom-Up Magic of Deep Learning</title><link href="https://www.algotechniq.com/blog/2023/dnn-bottomup/" rel="alternate" type="text/html" title="The Bottom-Up Magic of Deep Learning" /><published>2023-05-18T00:00:00+09:00</published><updated>2023-05-18T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2023/dnn-bottomup</id><content type="html" xml:base="https://www.algotechniq.com/blog/2023/dnn-bottomup/"><![CDATA[<p>Ali Rahimi, a former Google AI researcher now at Amazon, sparked controversy by <a href="https://youtu.be/ORHFOnaEzPc?t=662">comparing modern machine learning practices to alchemy</a>. He criticized the field for its reliance on empirical methods rather than solid theoretical foundations, suggesting that much of what drives success in machine learning, particularly in deep learning, <a href="https://www.science.org/content/article/ai-researchers-allege-machine-learning-alchemy">is not well-understood</a>.</p>
+
+<p>However, this view is not without its counterpoints. Yann LeCun, a pioneer in deep learning, argued against Rahimi’s characterization, emphasizing that while deep learning involves empirical work, it is grounded in rigorous scientific principles <a class="citation" href="#lecun2017my">(LeCun, 2017)</a>.</p>
+
+<p>Yann LeCun’s response to Rahimi’s critique offers a crucial perspective in understanding the balance between empirical methods and theoretical foundations in deep learning. LeCun acknowledged that while the field of deep learning relies heavily on empirical methods, it is not devoid of theory. He argued that the iterative and experimental nature of deep learning should not be seen as a lack of understanding but rather as a natural part of scientific inquiry, where theory and practice co-evolve. This perspective suggests that deep learning networks are guided by scientific principles and an ever-evolving framework that aims to explain their behavior.</p>
+
+<p>Despite this debate, the construction and optimization of deep learning networks are fundamentally driven by experimentation and empirical results, rather than starting with a comprehensive theoretical framework.</p>
+
+<blockquote>
+  <p>Deep Learning networks are designed bottom-up, not top-down.</p>
+</blockquote>
+
+<p>Both luminaries overlook a key point: Deep Learning networks are designed bottom-up, not top-down.</p>
+
+<h3 id="layer-by-layer-architecture-development">Layer-by-Layer Architecture Development</h3>
+<p>A key argument for the bottom-up nature of deep learning is the incremental construction of their architecture. Typically, deep learning models start with simple configurations, such as a single layer, and evolve by adding complexity based on the model’s performance. For instance, convolutional neural networks (CNNs) initially detect simple features such as edges in early layers, with more complex features emerging as deeper layers are added. This layer-by-layer development process, driven by empirical results, exemplifies a bottom-up approach, where complexity builds progressively from simpler components.</p>
+
+<h3 id="data-driven-learning-process">Data-Driven Learning Process</h3>
+<p>Deep learning models do not start with a top-down understanding of the data they are trained on. Instead, they learn directly from raw data, gradually uncovering patterns through exposure to vast datasets. This learning process involves adjusting parameters, such as weights and biases, based on the network’s errors and successes during training. Over time, the model constructs increasingly sophisticated representations of the input data, moving from simple abstractions to complex concepts. This emergent learning process underscores the bottom-up nature of deep learning, where higher-level features are not predefined but are discovered through layers of abstraction.</p>
+
+<h3 id="hyperparameter-tuning-and-optimization">Hyperparameter Tuning and Optimization</h3>
+<p>The design of deep learning networks also involves extensive hyperparameter tuning, further illustrating the bottom-up nature of these systems. Hyperparameters, such as the learning rate, batch size, and the number of layers, are not determined by theoretical principles alone but are optimized through a process of trial and error. Practitioners start with initial guesses and adjust them based on the model’s performance. This iterative tuning is a bottom-up approach, relying on empirical feedback rather than a rigid top-down framework.</p>
+
+<h3 id="transfer-learning-and-pre-trained-models">Transfer Learning and Pre-trained Models</h3>
+<p>Transfer learning, a widely used technique in deep learning, involves taking a pre-trained model and fine-tuning it for a new, related task. This process is inherently bottom-up, as it builds on existing knowledge embedded in the pre-trained model, which was developed through a similar iterative process. For example, a convolutional neural network trained on a large dataset for general image recognition can be adapted for a specific task like medical image analysis by adding new layers or retraining some layers. The adaptation relies on the foundational structure created by previous learning, further reinforcing the bottom-up approach.</p>
+
+<h3 id="the-infeasibility-of-top-down-design">The Infeasibility of Top-Down Design</h3>
+<p>A top-down approach in deep learning would require starting with a fully formed theoretical model that dictates the entire network architecture. However, the diversity and complexity of real-world data make it nearly impossible to create a one-size-fits-all architecture from the outset. Deep learning models must be flexible and adaptable, which necessitates a bottom-up approach. The sensitivity of these models to the specific characteristics of the data they are trained on further complicates any top-down design attempts, as the optimal architecture often emerges only after extensive experimentation and refinement.</p>
+
+<h3 id="empirical-evidence-supporting-bottom-up-design">Empirical Evidence Supporting Bottom-Up Design</h3>
+<p>Empirical evidence from the development of successful deep learning models such as AlexNet, VGG, and ResNet supports the bottom-up approach. These models were not the result of a top-down theoretical design but were instead developed through an iterative process of experimentation and improvement. Researchers often begin with a baseline model and progressively enhance it by adding layers, experimenting with activation functions, and tuning hyperparameters, reflecting the bottom-up nature of the field.</p>
+
+<blockquote>
+  <p>Bottom-Up Design as the Foundation of Deep Learning</p>
+</blockquote>
+
+<p>Ali Rahimi’s analogy of machine learning to alchemy underscores the empirical, bottom-up nature of deep learning development, a view that is countered by Yann LeCun’s emphasis on the blend of empiricism and theory in the field. While deep learning networks are not designed with a top-down approach, they are grounded in scientific inquiry and evolving theoretical principles. The construction and refinement of these networks rely on a process of discovery and adaptation, where complex behaviors and capabilities emerge from simpler components.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><summary type="html"><![CDATA[From alchemy to architecture]]></summary></entry><entry><title type="html">Crafting Neural Networks</title><link href="https://www.algotechniq.com/blog/2023/nn-zoo/" rel="alternate" type="text/html" title="Crafting Neural Networks" /><published>2023-05-12T00:00:00+09:00</published><updated>2023-05-12T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2023/nn-zoo</id><content type="html" xml:base="https://www.algotechniq.com/blog/2023/nn-zoo/"><![CDATA[<p>You might have visited the <a href="https://www.asimovinstitute.org/neural-network-zoo/">Neural Network Zoo</a>   <a class="citation" href="#proceedings2020047009">(Leijnen &amp; Veen, 2020)</a> or looked at <a href="https://resources.wolframcloud.com/NeuralNetRepository/">Wolfram Neural Net Repository</a> and wondered how these structures came about?</p>
+
+<p>Well, these layers don’t just emerge randomly. They’re crafted with precision to cater to specific requirements of various tasks, always to enhance model performance.</p>
+
+<h2 id="convolutional-layers">Convolutional Layers</h2>
+
+<p>For example, convolutional layers were developed to address the challenges of image processing. Digital pictures have high dimensionality and strong local relationships between pixels, which can be tricky to handle. Convolutional Layers are tailored to these characteristics, making them highly effective for analyzing images.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/conv2d.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/fcnn.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+(Left) Illustrating the convolutional layer (Right) Layers connect to form a deep convolutional neural network. Click to Zoom.
+</div>
+
+<p>The formula for a 2D convolutional layer \(\mathbf{Y} = \mathbf{X}  \circledast \mathbf{K}\) is:</p>
+
+\[y[i, j] = \sum_{m=0}^{M-1} \sum_{n=0}^{N-1} x[i+m, j+n] \cdot k[m, n]\]
+
+<p>Where:</p>
+<ul>
+  <li>\(    y[i, j] \) is the output feature map.</li>
+  <li>\(    x[i+m, j+n] \) is the input feature map.</li>
+  <li>\(    k[m, n] \) is the convolutional kernel (filter).</li>
+  <li>\(    b \) is the bias term.</li>
+  <li>\(    M \) and \(    N \) are the dimensions of the kernel.</li>
+</ul>
+
+<p>Note that this formula assumes no bias, no padding and a stride of 1.</p>
+
+<p>New layers are usually created to overcome current limitations or to better handle specific types of data or tasks. This leads AI researchers to constantly innovate, experimenting with different layer structures, activation functions, and training methods.</p>
+
+<h2 id="hierarchical-feature-learning-hfl">Hierarchical Feature Learning (HFL)</h2>
+
+<p>Another key concept in neural networks is “hierarchical feature learning,” <a class="citation" href="#Krizhevsky10.1145/3065386">(Krizhevsky et al., 2017)</a> where simple features detected by early layers (like edges in an image) are combined in later layers to form more complex patterns (like shapes or objects). This hierarchy allows the model to recognize intricate patterns in the data.</p>
+
+<p>HFL can be formally described using the following algebraic formulation:</p>
+
+<p>Let:</p>
+
+<ul>
+  <li>\(   \mathbf{X} \in \mathbb{R}^{d_0}\) represent the input data, where \(   d_0\) is the dimensionality of the input.</li>
+  <li>\(   L\) be the total number of layers in the network.</li>
+  <li>\(   \mathbf{H}^{(l)} \in \mathbb{R}^{d_l}\) represent the output (feature map) at layer \(   l\), where \(   d_l\) is the dimensionality of the feature space at layer \(   l\).</li>
+  <li>\(   \mathbf{W}^{(l)} \in \mathbb{R}^{d_l \times d_{l-1}}\) represent the weight matrix for layer \(   l\).</li>
+  <li>\(   \mathbf{b}^{(l)} \in \mathbb{R}^{d_l}\) represent the bias vector for layer \(   l\).</li>
+  <li>\(   \sigma(\cdot)\) represent the activation function (e.g., ReLU, sigmoid, tanh).</li>
+</ul>
+
+<p>The hierarchical feature encoding can be described as:</p>
+
+\[\mathbf{H}^{(l)} = \sigma\left(\mathbf{W}^{(l)} \mathbf{H}^{(l-1)} + \mathbf{b}^{(l)}\right), \quad \text{for } l = 1, 2, \ldots, L\]
+
+<p>Where:</p>
+
+<ul>
+  <li>\(   \mathbf{H}^{(0)} = \mathbf{X}\), the initial input to the network.</li>
+  <li>\(   \mathbf{H}^{(l)}\) represents the feature encoding at layer \(   l\), which serves as the input to the next layer.</li>
+</ul>
+
+<p>Low-Level Features (\(   \mathbf{H}^{(1)}\)) are the basic, primitive patterns detected by the initial layers of a neural network. These features are simple and localized, including edges that mark boundaries between different regions, corners where two edges meet, repetitive textures like those found in fabric or bricks, and simple geometric shapes such as circles, triangles, or rectangles.</p>
+
+<p>Mid-Level Features (\(   \mathbf{H}^{(2)}, \mathbf{H}^{(3)}, \ldots\)) capture more complex patterns such as corners, contours, or parts of objects, using the low-level features as building blocks.</p>
+
+<p>High-Level Features (\(   \mathbf{H}^{(L)}\)) are abstract, complex patterns identified by the deeper layers of a neural network. These features often combine multiple low-level elements. Examples include recognizing specific object parts like eyes, legs, or wings, and complete objects such as a face, car, or dog. Additionally, high-level features encompass semantic concepts like identifying a “crowd of people” or “traffic scene,” as well as broader scene understanding, such as recognizing an “urban landscape” or “natural environment.”</p>
+
+<blockquote>
+  <p>However, designing and training deep neural networks is challenging.</p>
+</blockquote>
+
+<p>Adding too many layers can lead to problems like overfitting, where the model performs well on training data but poorly on new data. Other issues, like the vanishing gradient problem, can also arise. To address these challenges, techniques like dropout layers, batch normalization, and architectures like ResNet (which uses skip connections) have been developed.</p>
+
+<p>In summary, neural network layers are the result of careful research and innovation, constantly pushing the boundaries of AI. The real magic happens in how these layers learn and adapt to different tasks.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><summary type="html"><![CDATA[Building layers bottom-up]]></summary></entry><entry><title type="html">Claws of Concern</title><link href="https://www.algotechniq.com/blog/2023/bears-attack/" rel="alternate" type="text/html" title="Claws of Concern" /><published>2023-04-18T00:00:00+09:00</published><updated>2023-04-18T00:00:00+09:00</updated><id>https://www.algotechniq.com/blog/2023/bears-attack</id><content type="html" xml:base="https://www.algotechniq.com/blog/2023/bears-attack/"><![CDATA[<blockquote>
+  <p>Japan has recently faced a troubling surge in bear attacks.</p>
+</blockquote>
+
+<p>These incidents, which have shaken the nation, reflect a growing tension between humans and wildlife, exacerbated by environmental and societal factors.</p>
+
+<p>The frequency of bear encounters has notably increased in rural and even suburban areas. As of 2024, Japan has reported over 50 bear attacks, with several resulting in fatalities. The prefectures of Akita, Iwate, and Yamagata have been particularly affected, where residents and authorities are on high alert.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/hfLTt-ZQNoc?si=cMPkry4OSdEH5f-n" class="rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="400" height="225" />
+  
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  
+    <iframe src="https://www.youtube.com/embed/pLN11JicH5U?si=Se0VbykCCUinlZ1H" class="rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="400" height="225" />
+  
+  
+</figure>
+
+    </div>
+</div>
+
+<p>Several factors contribute to this rise in bear activity. Climate change is altering the natural habitats and food sources of bears, pushing them closer to human settlements in search of sustenance. Additionally, Japan’s aging rural population has led to abandoned farmlands, creating an environment where bears can roam more freely without human deterrence. The decrease in hunting and trapping, partly due to stricter regulations and a declining interest in these activities among younger generations, has also led to a population increase in certain bear species.</p>
+
+<p>The government has responded with heightened measures, including increased patrolling of bear-prone areas, public awareness campaigns, and in some cases, culling to control the population. However, these measures have sparked debate, balancing between wildlife conservation and human safety.</p>
+
+<p>Experts suggest that a long-term solution requires addressing the root causes, such as habitat preservation and better waste management, to prevent bears from entering human spaces. The situation underscores the need for a sustainable coexistence strategy between humans and wildlife in Japan, ensuring safety while preserving the country’s natural heritage.</p>
+
+<h3 id="algotechniqs-approach">Algotechniq’s Approach</h3>
+
+<p>At Algotechniq, we’re developing deep learning algorithms for locating and recognizing wild animals in different challenging environments, including scenes with multiple targets, small targets, or obstructed targets.</p>
+
+<p>Our algorithm, incorporated into our WildSight product, runs on Jetson Nano where it takes in scene video at 30 fps and outputs a bounding box around the animal.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  
+    <video src="/assets/video/beardetect3.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" controls="" />
+
+  
+  
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Locating a running bear by Algotechniq's WildSight. 
+</div>
+
+<p>The above video is extracted from <a href="https://www.youtube.com/watch?v=pLN11JicH5U">Nippon TV News Japan</a>.</p>]]></content><author><name></name></author><category term="Algoblog" /><category term="technote" /><summary type="html"><![CDATA[Bears attacking Japan]]></summary></entry></feed>
